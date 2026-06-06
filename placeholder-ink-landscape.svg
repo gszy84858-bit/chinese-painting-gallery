@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Temporary Chinese ink landscape painting</title>
+  <desc id="desc">A refined placeholder artwork inspired by Chinese ink painting, with mountains, mist, bamboo, and a red seal.</desc>
+  <defs>
+    <radialGradient id="paper" cx="45%" cy="25%" r="80%">
+      <stop offset="0" stop-color="#fbf7eb"/>
+      <stop offset="0.55" stop-color="#f0e6d2"/>
+      <stop offset="1" stop-color="#d8c7a8"/>
+    </radialGradient>
+    <filter id="grain" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="5" seed="8"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.18"/>
+      </feComponentTransfer>
+    </filter>
+    <filter id="inkBlur">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+    <linearGradient id="mist" x1="0" x2="1">
+      <stop offset="0" stop-color="#f4eee0" stop-opacity="0"/>
+      <stop offset="0.4" stop-color="#f4eee0" stop-opacity="0.88"/>
+      <stop offset="1" stop-color="#f4eee0" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="1600" fill="url(#paper)"/>
+  <rect width="1200" height="1600" filter="url(#grain)" opacity="0.55"/>
+  <rect x="74" y="72" width="1052" height="1456" fill="none" stroke="#3b3326" stroke-opacity="0.16" stroke-width="3"/>
+
+  <g opacity="0.25" filter="url(#inkBlur)" fill="#2d342f">
+    <path d="M35 936c155-157 215-291 335-319 102-24 149 58 213 13 76-54 70-176 158-204 96-30 206 80 249 131 78 93 111 216 142 334v630H35z"/>
+  </g>
+  <g fill="#1f2824" opacity="0.55">
+    <path d="M-20 1130c116-141 193-257 305-279 77-15 122 37 174 4 60-38 55-128 124-149 75-23 165 62 198 101 66 79 93 177 123 279v457H-20z"/>
+  </g>
+  <g fill="#111816" opacity="0.72">
+    <path d="M470 1180c89-112 139-225 221-245 66-16 93 42 136 8 53-42 45-123 106-144 75-25 153 78 184 126 55 86 67 177 95 286v346H470z"/>
+  </g>
+
+  <g opacity="0.44" fill="none" stroke="#161d1a" stroke-linecap="round">
+    <path d="M112 1369c107-74 218-95 336-64 86 23 154 18 240-37 105-68 220-83 344-50" stroke-width="11"/>
+    <path d="M134 1399c95-48 206-55 335-20 94 25 181 5 278-45 78-40 171-42 279-6" stroke-width="5"/>
+  </g>
+
+  <g opacity="0.9">
+    <rect x="100" y="850" width="1010" height="70" fill="url(#mist)"/>
+    <rect x="70" y="1010" width="1065" height="95" fill="url(#mist)"/>
+    <rect x="95" y="1217" width="1010" height="78" fill="url(#mist)" opacity="0.8"/>
+  </g>
+
+  <g stroke="#202b25" stroke-linecap="round" opacity="0.82">
+    <path d="M244 425c-21 174-30 352-33 531" fill="none" stroke-width="12"/>
+    <path d="M275 390c-29 202-44 402-45 604" fill="none" stroke-width="7"/>
+    <path d="M190 503c27-12 69-35 103-72" fill="none" stroke-width="6"/>
+    <path d="M185 590c33-18 68-42 104-79" fill="none" stroke-width="5"/>
+    <path d="M180 697c39-20 75-47 108-82" fill="none" stroke-width="6"/>
+    <path d="M285 545c38 17 81 31 129 38" fill="none" stroke-width="5"/>
+    <path d="M281 660c32 16 73 30 121 39" fill="none" stroke-width="4"/>
+    <path d="M263 790c42 18 82 28 120 31" fill="none" stroke-width="5"/>
+  </g>
+
+  <g fill="#202b25" opacity="0.8">
+    <path d="M156 491c43-52 81-77 116-75-20 39-55 65-116 75z"/>
+    <path d="M174 584c38-47 77-72 117-75-24 43-64 72-117 75z"/>
+    <path d="M169 690c48-55 91-82 129-80-27 47-69 73-129 80z"/>
+    <path d="M291 542c50 4 91 19 125 45-55 10-96-4-125-45z"/>
+    <path d="M283 657c55 3 97 17 128 42-55 11-98-3-128-42z"/>
+    <path d="M266 786c54 0 99 13 135 39-59 12-104-1-135-39z"/>
+  </g>
+
+  <g transform="translate(913 159)" fill="#262118" opacity="0.82" font-family="serif">
+    <text writing-mode="tb" font-size="44" letter-spacing="7">留白待题</text>
+    <text x="-62" y="5" writing-mode="tb" font-size="25" letter-spacing="5" opacity="0.64">山水清音</text>
+  </g>
+  <g transform="translate(890 390)">
+    <rect width="95" height="95" rx="3" fill="#a3312a"/>
+    <path d="M21 25h53M21 47h53M21 70h53M33 17v68M58 17v68" stroke="#f2d8bd" stroke-width="6" stroke-linecap="square" opacity="0.86"/>
+  </g>
+</svg>
