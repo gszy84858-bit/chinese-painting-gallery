@@ -5,7 +5,7 @@ const works = [
     year: "示例作品",
     medium: "设色纸本",
     size: "待填写",
-    image: "./assets/placeholder-ink-landscape.svg",
+    image: "./placeholder-ink-landscape.svg",
   },
   {
     title: "作品预留 002",
