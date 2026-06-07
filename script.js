@@ -5,7 +5,7 @@ const works = [
     year: "2026",
     medium: "设色纸本",
     size: "待填写",
-    image: "./assets/邱先生画作-1.jpg",
+    image: "./assets/邱先生画作01.jpg",
   },
   {
     title: "漓江烟云",
@@ -13,7 +13,7 @@ const works = [
     year: "2026",
     medium: "水墨纸本",
     size: "待填写",
-    image: "./assets/邱先生画作-2.jpg",
+    image: "./assets/邱先生画作02.jpg",
   },
   {
     title: "作品预留 003",
