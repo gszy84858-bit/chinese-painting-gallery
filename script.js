@@ -1,18 +1,19 @@
 const works = [
   {
-    title: "山水清音",
+    title: "春晚",
     category: "山水",
-    year: "示例作品",
+    year: "2026",
     medium: "设色纸本",
     size: "待填写",
-    image: "./placeholder-ink-landscape.svg",
+    image: "./assets/邱先生画作-1.JPG",
   },
   {
-    title: "作品预留 002",
-    category: "花鸟",
-    year: "待填写",
+    title: "漓江烟云",
+    category: "山水",
+    year: "2026",
     medium: "水墨纸本",
     size: "待填写",
+    image: "./assets/邱先生画作-2.JPG",
   },
   {
     title: "作品预留 003",
@@ -28,34 +29,7 @@ const works = [
     medium: "纸本",
     size: "待填写",
   },
-  {
-    title: "作品预留 005",
-    category: "山水",
-    year: "待填写",
-    medium: "水墨纸本",
-    size: "待填写",
-  },
-  {
-    title: "作品预留 006",
-    category: "花鸟",
-    year: "待填写",
-    medium: "设色纸本",
-    size: "待填写",
-  },
-  {
-    title: "作品预留 007",
-    category: "人物",
-    year: "待填写",
-    medium: "水墨纸本",
-    size: "待填写",
-  },
-  {
-    title: "作品预留 008",
-    category: "书画小品",
-    year: "待填写",
-    medium: "纸本",
-    size: "待填写",
-  },
+  
 ];
 
 const gallery = document.querySelector("#gallery");

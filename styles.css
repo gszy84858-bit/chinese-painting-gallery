@@ -75,18 +75,18 @@ img {
 
 .brand-mark {
   display: grid;
-  width: 40px;
-  height: 40px;
+  width: 200px;
+  height: 100px;
   place-items: center;
   border-radius: 3px;
   background: var(--seal);
   color: #f7dfbf;
-  font-size: 19px;
+  font-size: 35px;
   line-height: 1;
 }
 
 .brand-name {
-  font-size: 18px;
+  font-size: 35px;
 }
 
 .nav-links {
